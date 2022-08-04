@@ -1,4 +1,5 @@
 # Nuvem de Palavras
+url: https://nuvem-de-palavras.herokuapp.com/
 
 Projeto desenvolvido com Python 
 | Bibliotecas Utilizadas |
@@ -7,9 +8,9 @@ Projeto desenvolvido com Python
 | NLTK |
 | Wordcloud |
 
-## [ deploy de um projeto Streamlit ]
+## [ deploy de um projeto Streamlit no Heroku ]
 
-* Criei o projeto completo no git
+* Criei o projeto completo no github
 * Baixei o pigar [ pip install pigar ]
 * Executar [ python -m pigar ] para gerar o arquivo requirements.txt
 * Criar o setup.sh exatamente como esta criado neste projeto

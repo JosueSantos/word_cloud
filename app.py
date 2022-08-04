@@ -3,6 +3,12 @@ import streamlit as st
 from creater_word_cloud import CreaterWordCloud
 
 def main():
+    st.set_page_config(
+        page_title="Nuvem de Palavras",
+        page_icon="☁️"
+    )
+
+    st.caption("criado por Josué.Santos .2022")
     st.header('Word Cloud - Nuvem de Palavras')
     st.write('A nuvem de palavras é uma seleção das palavras que mais se repetem em um determinado texto.')
 

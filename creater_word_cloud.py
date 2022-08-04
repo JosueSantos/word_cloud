@@ -27,7 +27,7 @@ class CreaterWordCloud:
         unique_string = (" ").join(word_dict)
 
         wordcloud = WordCloud(
-            stopwords=['então'] + stopwords.words('portuguese'),
+            stopwords=stopwords.words('portuguese'),
             max_words=qtn,
             background_color="white"
         ).generate( unique_string )
